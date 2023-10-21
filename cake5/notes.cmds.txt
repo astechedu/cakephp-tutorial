@@ -1,0 +1,13 @@
+
+
+
+Migrations: 
+
+bin/cake migrations create Students
+bin/cake migrations migrate
+bin/cake migrations status
+bin/cake migrations rollback
+
+bin/cake bake seed Students
+bin/cake migrations seed                         //Seed all files
+bin/cake migrations seed --seed StudentsSeed     //Seed Single File
