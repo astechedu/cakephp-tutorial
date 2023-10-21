@@ -1,0 +1,176 @@
+2023-10-20 17:06:44 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-10-20 17:06:44 error: [Cake\Database\Exception\MissingExtensionException] Database driver `Cake\Database\Driver\Sqlite` cannot be used due to a missing PHP extension or unmet dependency. Requested by connection `test` in /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php on line 172
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php:126
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:107
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2023-10-20 17:08:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-10-20 17:08:13 error: [Cake\Database\Exception\MissingExtensionException] Database driver `Cake\Database\Driver\Sqlite` cannot be used due to a missing PHP extension or unmet dependency. Requested by connection `test` in /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php on line 172
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php:126
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:107
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2023-10-20 17:08:32 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-10-20 17:08:32 error: [Cake\Database\Exception\MissingExtensionException] Database driver `Cake\Database\Driver\Sqlite` cannot be used due to a missing PHP extension or unmet dependency. Requested by connection `test` in /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php on line 172
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php:126
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:107
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2023-10-20 17:15:18 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-10-20 17:15:18 error: [Cake\Database\Exception\MissingExtensionException] Database driver `Cake\Database\Driver\Sqlite` cannot be used due to a missing PHP extension or unmet dependency. Requested by connection `test` in /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php on line 172
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php:126
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:107
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2023-10-20 17:15:20 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-10-20 17:15:20 error: [Cake\Database\Exception\MissingExtensionException] Database driver `Cake\Database\Driver\Sqlite` cannot be used due to a missing PHP extension or unmet dependency. Requested by connection `test` in /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php on line 172
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php:126
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:107
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2023-10-20 17:15:21 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-10-20 17:15:21 error: [Cake\Database\Exception\MissingExtensionException] Database driver `Cake\Database\Driver\Sqlite` cannot be used due to a missing PHP extension or unmet dependency. Requested by connection `test` in /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php on line 172
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php:126
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:107
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2023-10-20 18:06:48 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-10-20 18:06:48 error: [Cake\Database\Exception\MissingExtensionException] Database driver `Cake\Database\Driver\Sqlite` cannot be used due to a missing PHP extension or unmet dependency. Requested by connection `test` in /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php on line 172
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php:126
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:107
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2023-10-20 19:14:48 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-10-20 19:14:48 error: [Cake\Database\Exception\MissingExtensionException] Database driver `Cake\Database\Driver\Sqlite` cannot be used due to a missing PHP extension or unmet dependency. Requested by connection `test` in /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php on line 172
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Database/Connection.php:126
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:107
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/ToolbarService.php:232
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /home/ajay/github-tutorials/cakephp-tutorial/cake5/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
