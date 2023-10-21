@@ -4,9 +4,9 @@ declare(strict_types=1);
 use Migrations\AbstractSeed;
 
 /**
- * Students seed.
+ * Emps seed.
  */
-class StudentsSeed extends AbstractSeed
+class EmpsSeed extends AbstractSeed
 {
     /**
      * Run Method.
@@ -20,13 +20,9 @@ class StudentsSeed extends AbstractSeed
      */
     public function run(): void
     {
-                
-        $data = [
-            ["name" => "ajay", "description" => "This is desc1."],
-            ["name" => "amit", "description" => "This is desc2."],
-        ];
- 
-        $table = $this->table('students');
+        $data = ['name' => 'ajay', 'address' => 'address1'];
+
+        $table = $this->table('emps');
         $table->insert($data)->save();
     }
 }

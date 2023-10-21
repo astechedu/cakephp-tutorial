@@ -20,8 +20,8 @@ class PostsSeed extends AbstractSeed
      */
     public function run(): void
     {
-        $data = [];
-
+        $data = ['title' => 'title1', 'description' => 'desc1'];
+        //$data = [];
         $table = $this->table('posts');
         $table->insert($data)->save();
     }

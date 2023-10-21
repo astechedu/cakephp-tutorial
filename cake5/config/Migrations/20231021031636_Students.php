@@ -18,20 +18,20 @@ class Students extends AbstractMigration
         $table->addColumn('name', 'string', [
             'default' => null,
             'limit' => 255,
-            'null' => false,
+            'null' => true,
         ]);
         $table->addColumn('description', 'text', [
             'default' => null,
-            'null' => false,
+            'null' => true,
         ]);
         $table->addColumn('created', 'datetime', [
             'default' => null,
-            'null' => false,
+            'null' => true,
         ]);
         $table->addColumn('modified', 'datetime', [
             'default' => null,
-            'null' => false,
+            'null' => true,
         ]);
-        $table->create();        
+        $table->create();         
     }
 }
