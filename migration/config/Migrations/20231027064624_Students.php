@@ -5,19 +5,14 @@ use Migrations\AbstractMigration;
 
 class Students extends AbstractMigration
 {
-    /**
-     * Change Method.
-     *
-     * More information on this method is available here:
-     * https://book.cakephp.org/phinx/0/en/migrations.html#the-change-method
-     * @return void
-     */
+
     public function change(): void
     {
         $table = $this->table('students');
+
         $table->addColumn('name', 'string', [
             'default' => null,
-            'limit' => 255,
+            'limit' => 50,
             'null' => true,
         ]);
         $table->addColumn('description', 'text', [
@@ -31,7 +26,7 @@ class Students extends AbstractMigration
         $table->addColumn('modified', 'datetime', [
             'default' => null,
             'null' => true,
-        ]);
-        $table->create();         
+        ]);           
+        $table->create();     
     }
 }
