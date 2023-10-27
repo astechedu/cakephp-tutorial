@@ -1,0 +1,209 @@
+
+Migrations: 
+
+bin/cake migrations create Students
+bin/cake migrations migrate
+bin/cake migrations status
+bin/cake migrations rollback
+
+
+Seeds: 
+
+bin/cake bake seed Students
+bin/cake migrations seed                       //Seed all files
+bin/cake migrations seed --seed StudentsSeed   //Seed Single File
+
+
+---------------------------------------------------------------------
+
+
+//1. 20231021031636_Emps.php      - Migration
+
+<?php
+declare(strict_types=1);
+
+use Migrations\AbstractMigration;
+
+class Emps extends AbstractMigration
+{
+
+    public function change(): void
+    {
+        $table = $this->table('emps');
+        $table->addColumn('name', 'string', [
+            'default' => null,
+            'limit' => 255,
+            'null' => true,
+        ]);
+        $table->addColumn('address', 'text', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->addColumn('created', 'datetime', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->addColumn('modified', 'datetime', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->create();         
+    }
+}
+
+
+---
+
+//EmpsSeed.php  - Seeds
+
+
+<?php
+declare(strict_types=1);
+
+use Migrations\AbstractSeed;
+
+class EmpsSeed extends AbstractSeed
+{
+
+    public function run(): void
+    {
+        $data = ['name' => 'ajay', 'address' => 'address1'];
+
+        $table = $this->table('emps');
+        $table->insert($data)->save();
+    }
+}
+
+------------------------------------------------------------------
+
+
+2. 20231021031636_Students.php  - Migration
+
+
+<?php
+declare(strict_types=1);
+
+use Migrations\AbstractMigration;
+
+class Students extends AbstractMigration
+{
+
+    public function change(): void
+    {
+        $table = $this->table('students');
+        $table->addColumn('name', 'string', [
+            'default' => null,
+            'limit' => 255,
+            'null' => true,
+        ]);
+        $table->addColumn('description', 'text', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->addColumn('created', 'datetime', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->addColumn('modified', 'datetime', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->create();         
+    }
+}
+
+---
+
+// StudentsSeed.php              - Seeds
+
+
+<?php
+declare(strict_types=1);
+
+use Migrations\AbstractSeed;
+
+
+class StudentsSeed extends AbstractSeed
+{
+ 
+    public function run(): void
+    {
+                
+        $data = [
+            ["name" => "ajay", "description" => "This is desc1."],
+            ["name" => "amit", "description" => "This is desc2."],
+        ];
+ 
+        $table = $this->table('students');
+        $table->insert($data)->save();
+    }
+}
+
+
+
+
+----------------------------------------------------------------------
+
+
+3. 20231021031636_Posts.php    - Migration
+
+
+<?php
+declare(strict_types=1);
+
+use Migrations\AbstractMigration;
+
+class Posts extends AbstractMigration
+{
+
+    public function change(): void
+    {
+        $table = $this->table('posts');
+        $table->addColumn('title', 'string', [
+            'default' => null,
+            'limit' => 255,
+            'null' => true,
+        ]);
+        $table->addColumn('description', 'text', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->addColumn('created', 'datetime', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->addColumn('modified', 'datetime', [
+            'default' => null,
+            'null' => true,
+        ]);
+        $table->create();         
+    }
+}
+
+
+----
+
+
+// PostsSeed.php                - Seeds
+
+
+<?php
+declare(strict_types=1);
+
+use Migrations\AbstractSeed;
+
+
+class PostsSeed extends AbstractSeed
+{
+ 
+    public function run(): void
+    {
+        $data = ['title' => 'title1', 'description' => 'desc1'];
+        //$data = [];
+        $table = $this->table('posts');
+        $table->insert($data)->save();
+    }
+}
+
+
+-------------------------------------------------------------------------
